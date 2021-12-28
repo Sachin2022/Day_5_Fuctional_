@@ -17,11 +17,9 @@ public class Quadratic {
 		scanner.close();
 		int Delta = b * b - 4 * a * c;
 		System.out.println(Delta);
-			float Root1 = (float) (-b + Math.sqrt(Delta)) / (2 * a);
-			float Root2 = (float) (-b - Math.sqrt(Delta)) / (2 * a);
-			System.out.println("Root 1: " + Root1 + "  &  Root 2: " + Root2);
-	  }
-
+		float Root1 = (float) (-b + Math.sqrt(Delta)) / (2 * a);
+		float Root2 = (float) (-b - Math.sqrt(Delta)) / (2 * a);
+		System.out.println("Root 1: " + Root1 + "  &  Root 2: " + Root2);
 	}
 
-
+}
